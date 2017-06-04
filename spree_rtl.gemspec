@@ -2,29 +2,30 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_rtl'
-  s.version     = '2.3.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.version     = '3.2.0'
+  s.summary     = 'Right to left layout for Spree'
+  s.description = 'Right to left layout for Spree (to support rtl languages such as Arabic, Persian, Urdu, and others)'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Meysam Shirdel'
   s.email     = 'mshirdel@gmail.com'
   s.homepage  = 'http://www.spreecommerce.com'
+  s.license       = 'MIT'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3.1'
+  s.add_dependency 'spree_core', '~> 3.2.0'
 
-  s.add_development_dependency 'capybara', '~> 2.1'
+  s.add_development_dependency 'capybara'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
-  s.add_development_dependency 'factory_girl', '~> 4.4'
+  s.add_development_dependency 'factory_girl'
   s.add_development_dependency 'ffaker'
-  s.add_development_dependency 'rspec-rails',  '~> 2.13'
-  s.add_development_dependency 'sass-rails', '~> 4.0.2'
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'sass-rails'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3'
